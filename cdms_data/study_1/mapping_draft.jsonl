@@ -1,0 +1,50 @@
+```jsonl
+{"source_field":"AEACN","target_field":"AEACN","transformation_needed":false,"transformation_description":"","draft_reasoning":"AEACN directly maps to the corresponding SDTM variable without any transformation."}
+{"source_field":"AEENDTC","target_field":"AEENDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"AEENDTC is already formatted to match SDTM requirements and does not require any changes."}
+{"source_field":"AEOUT","target_field":"AEOUT","transformation_needed":false,"transformation_description":"","draft_reasoning":"AEOUT aligns directly with SDTM variables; no transformation is necessary."}
+{"source_field":"AESEQ","target_field":"AESEQ","transformation_needed":false,"transformation_description":"","draft_reasoning":"AESEQ is kept as is as it directly corresponds to SDTM."}
+{"source_field":"AESER","target_field":"AESER","transformation_needed":false,"transformation_description":"","draft_reasoning":"AESER does not require change; it is compatible with SDTM."}
+{"source_field":"AESEV","target_field":"AESEV","transformation_needed":false,"transformation_description":"","draft_reasoning":"AESEV maps directly to SDTM without needing transformations."}
+{"source_field":"AESTDTC","target_field":"AESTDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"AESTDTC is adequately formatted for SDTM and requires no changes."}
+{"source_field":"AETERM","target_field":"AETERM","transformation_needed":false,"transformation_description":"","draft_reasoning":"AETERM directly matches the SDTM naming convention, no transformation needed."}
+{"source_field":"AGE","target_field":"AGE","transformation_needed":false,"transformation_description":"","draft_reasoning":"AGE can be used directly as it conforms to SDTM requirements."}
+{"source_field":"AGEU","target_field":"AGEU","transformation_needed":false,"transformation_description":"","draft_reasoning":"AGEU is a standard unit field that maps directly to SDTM."}
+{"source_field":"ARM","target_field":"ARM","transformation_needed":false,"transformation_description":"","draft_reasoning":"ARM corresponds to SDTM without requiring any alterations."}
+{"source_field":"ARMCD","target_field":"ARMCD","transformation_needed":false,"transformation_description":"","draft_reasoning":"ARMCD directly maps to SDTM with no transformations necessary."}
+{"source_field":"BRTHDTC","target_field":"BRTHDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"BRTHDTC is formatted correctly for SDTM and does not need changes."}
+{"source_field":"COUNTRY","target_field":"COUNTRY","transformation_needed":false,"transformation_description":"","draft_reasoning":"COUNTRY aligns directly with SDTM; no transformation needed."}
+{"source_field":"DMDTC","target_field":"DMDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"DMDTC does not need changes and aligns directly with SDTM."}
+{"source_field":"DOMAIN","target_field":"DOMAIN","transformation_needed":false,"transformation_description":"","draft_reasoning":"DOMAIN maps directly as it is already aligned with SDTM definitions."}
+{"source_field":"ETHNIC","target_field":"ETHNIC","transformation_needed":false,"transformation_description":"","draft_reasoning":"ETHNIC is directly usable in SDTM without transformations."}
+{"source_field":"EXDOSE","target_field":"EXDOSE","transformation_needed":false,"transformation_description":"","draft_reasoning":"EXDOSE can be used directly as it conforms to SDTM requirements."}
+{"source_field":"EXDOSFRQ","target_field":"EXDOSFRQ","transformation_needed":false,"transformation_description":"","draft_reasoning":"EXDOSFRQ directly matches SDTM variable definitions."}
+{"source_field":"EXDOSU","target_field":"EXDOSU","transformation_needed":false,"transformation_description":"","draft_reasoning":"EXDOSU is a standard unit field that maps directly to SDTM."}
+{"source_field":"EXENDTC","target_field":"EXENDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"EXENDTC is formatted correctly for SDTM requirements."}
+{"source_field":"EXROUTE","target_field":"EXROUTE","transformation_needed":true,"transformation_description":"Requires controlled terminology for route of administration.","draft_reasoning":"EXROUTE must adhere to controlled terminology as outlined in SDTMIG."}
+{"source_field":"EXSEQ","target_field":"EXSEQ","transformation_needed":false,"transformation_description":"","draft_reasoning":"EXSEQ aligns directly with SDTM without slight transformation."}
+{"source_field":"EXSTDTC","target_field":"EXSTDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"EXSTDTC directly maps to the corresponding SDTM variable with no changes needed."}
+{"source_field":"EXTRT","target_field":"EXTRT","transformation_needed":false,"transformation_description":"","draft_reasoning":"EXTRT is already aligned with SDTM variable definitions."}
+{"source_field":"RACE","target_field":"RACE","transformation_needed":false,"transformation_description":"","draft_reasoning":"RACE is directly mappable to SDTM with no transformation."}
+{"source_field":"RFENDTC","target_field":"RFENDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"RFENDTC maps directly to SDTM without needing any changes."}
+{"source_field":"RFSTDTC","target_field":"RFSTDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"RFSTDTC is conformant with SDTM specifications and does not need modifications."}
+{"source_field":"SEX","target_field":"SEX","transformation_needed":false,"transformation_description":"","draft_reasoning":"SEX maps directly to SDTM definitions and is not transformed."}
+{"source_field":"SITEID","target_field":"SITEID","transformation_needed":false,"transformation_description":"","draft_reasoning":"SITEID is consistent with SDTM definitions and does not require transformation."}
+{"source_field":"STUDYID","target_field":"STUDYID","transformation_needed":false,"transformation_description":"","draft_reasoning":"STUDYID directly matches SDTM with no transformation needed."}
+{"source_field":"SUBJID","target_field":"SUBJID","transformation_needed":false,"transformation_description":"","draft_reasoning":"SUBJID is formatted correctly for SDTM and requires no changes."}
+{"source_field":"TSPARM","target_field":"TSPARM","transformation_needed":false,"transformation_description":"","draft_reasoning":"TSPARM directly corresponds to SDTM definitions."}
+{"source_field":"TSPARMCD","target_field":"TSPARMCD","transformation_needed":false,"transformation_description":"","draft_reasoning":"TSPARMCD aligns with SDTM without needing changes."}
+{"source_field":"TSSEQ","target_field":"TSSEQ","transformation_needed":false,"transformation_description":"","draft_reasoning":"TSSEQ directly maps to SDTM."}
+{"source_field":"TSVAL","target_field":"TSVAL","transformation_needed":false,"transformation_description":"","draft_reasoning":"TSVAL is compliant with standard SDTM formats."}
+{"source_field":"TSVALU","target_field":"TSVALU","transformation_needed":false,"transformation_description":"","draft_reasoning":"TSVALU can be directly used as it conforms to SDTM definitions."}
+{"source_field":"TVSTDTC","target_field":"TVSTDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"TVSTDTC maps directly to SDTM and requires no changes."}
+{"source_field":"USUBJID","target_field":"USUBJID","transformation_needed":false,"transformation_description":"","draft_reasoning":"USUBJID follows SDTM naming conventions accurately without the need for transformation."}
+{"source_field":"VISIT","target_field":"VISIT","transformation_needed":true,"transformation_description":"May require controlled terminology mapping for visit names.","draft_reasoning":"VISIT may need to be aligned with predefined controlled terminology as specified by SDTM."}
+{"source_field":"VISITNUM","target_field":"VISITNUM","transformation_needed":false,"transformation_description":"","draft_reasoning":"VISITNUM directly corresponds to SDTM without needing any change."}
+{"source_field":"VSBLFL","target_field":"VSBLFL","transformation_needed":false,"transformation_description":"","draft_reasoning":"VSBLFL mapping does not require changes as it aligns with SDTM."}
+{"source_field":"VSDTC","target_field":"VSDTC","transformation_needed":false,"transformation_description":"","draft_reasoning":"VSDTC conforms with SDTM variable format."}
+{"source_field":"VSORRES","target_field":"VSORRES","transformation_needed":false,"transformation_description":"","draft_reasoning":"VSORRES is directly usable and matches SDTM definitions."}
+{"source_field":"VSORRESU","target_field":"VSORRESU","transformation_needed":false,"transformation_description":"","draft_reasoning":"VSORRESU also directly matches SDTM's standard."}
+{"source_field":"VSSEQ","target_field":"VSSEQ","transformation_needed":false,"transformation_description":"","draft_reasoning":"VSSEQ directly maps to the corresponding SDTM variable."}
+{"source_field":"VSTEST","target_field":"VSTEST","transformation_needed":false,"transformation_description":"","draft_reasoning":"VSTEST is used directly in SDTM without transformation."}
+{"source_field":"VSTESTCD","target_field":"VSTESTCD","transformation_needed":false,"transformation_description":"","draft_reasoning":"VSTESTCD directly matches the SDTM definitions."}
+```

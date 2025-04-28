@@ -1,0 +1,13 @@
+STUDYID,DOMAIN,USUBJID,AESEQ,AETERM,AESTDTC,AEENDTC,AESEV,AESER,AEACN,AEOUT
+STUDY001,AE,STUDY001-101,1,Headache,2022-02-10,2022-02-12,Mild,No,Resumed at same dose,Recovered/resolved
+STUDY001,AE,STUDY001-102,2,Nausea,2022-03-20,2022-03-22,Moderate,No,Medication withdrawn,Ongoing
+STUDY001,AE,STUDY001-103,3,Hypertension,2022-04-05,2022-04-10,Severe,Yes,Drug withdrawn,Recovered/resolved
+STUDY001,AE,STUDY001-104,4,Back pain,2022-02-15,,Mild,No,,Ongoing
+STUDY001,AE,STUDY001-105,5,Dizziness,2022-05-01,2022-05-03,Moderate,No,Trial drug dose reduced,Recovered/resolved
+STUDY001,AE,STUDY001-106,6,Insomnia,2022-06-12,2022-06-19,Mild,No,,Recovered/resolved
+STUDY001,AE,STUDY001-107,7,Diarrhea,2022-07-02,2022-07-05,Moderate,No,Drug interrupted,Recovered/resolved
+STUDY001,AE,STUDY001-108,8,Rash,2022-08-01,2022-08-10,Severe,Yes,Medication withdrawn,Recovered/resolved
+STUDY001,AE,STUDY001-109,9,Anxiety,2022-04-20,,Mild,No,,Ongoing
+STUDY001,AE,STUDY001-110,10,Fatigue,2022-05-30,2022-06-02,Moderate,No,Medication withheld,Recovered/resolved
+STUDY001,AE,STUDY001-111,11,Pruritus,2022-06-05,2022-06-07,Mild,No,,Recovered/resolved
+STUDY001,AE,STUDY001-112,12,Abdominal pain,2022-07-10,2022-07-15,Severe,Yes,Drug withdrawn,Fatal

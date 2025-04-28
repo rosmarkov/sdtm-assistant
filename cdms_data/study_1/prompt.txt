@@ -1,0 +1,22 @@
+
+You are a clinical data manager.
+
+Generate synthetic, realistic raw CDMS datasets for a clinical trial covering the following domains:
+- DM (Demographics)
+- VS (Vital Signs)
+- AE (Adverse Events)
+- EX (Exposure)
+- TS (Trial Summary)
+- TV (Trial Visits)
+
+Requirements:
+- Create realistic and complete sets of fields typically collected at the CDMS level based on your domain knowledge.
+- Do NOT limit the number of fields; reflect actual clinical trialdata collection practices and include diverse metadata (e.g., demographics, vital measurements, event severities, dosing routes).
+- Output each domain as a realistic **CSV format** block: a header row followed by data rows.
+- Each domain should include 10-20 records, multiple subjects, and multiple visits where appropriate.
+- Include missing/null values in some fields realistically.
+- Clearly label each section with "DM Dataset:", "VS Dataset:", "AE Dataset:", etc.
+
+Respond only with the CSV content clearly separated by domain - no explanations, introductions, or notes.
+
+Be as accurate and complete as possible.
