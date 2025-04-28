@@ -1,0 +1,2 @@
+[console_scripts]
+sdtm-assistant = sdtm_assistant.cli:app

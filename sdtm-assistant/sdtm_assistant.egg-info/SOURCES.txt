@@ -1,0 +1,10 @@
+setup.py
+sdtm_assistant/__init__.py
+sdtm_assistant/cli.py
+sdtm_assistant/validator.py
+sdtm_assistant.egg-info/PKG-INFO
+sdtm_assistant.egg-info/SOURCES.txt
+sdtm_assistant.egg-info/dependency_links.txt
+sdtm_assistant.egg-info/entry_points.txt
+sdtm_assistant.egg-info/requires.txt
+sdtm_assistant.egg-info/top_level.txt
