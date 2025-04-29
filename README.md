@@ -1,7 +1,8 @@
-# sdtm-assistant
-Agentic workflow for Study Data Tabulation Model (SDTM)-compliant dataset generation
+# sdtm-assistant: Agentic workflow for Study Data Tabulation Model (SDTM)-compliant dataset generation
 
-This solution designs a modular, agentic system where autonomous agents powered by large language models (LLMs) perform discrete SDTM mapping tasks with human oversight. The methodology combines synthetic data generation, exploration, mapping draft generation, validation using reasoning chains, and operationalization through a Command-Line Interface (CLI).
+The project demonstrates an agentic workflow automating dataset conversion using Study Data Tabulation Model (SDTM). SDTM is used to report clinical studies results to the FDA in the US. This is a challenging task for biostatistians as it's effort-intensive, cognitively demanding, and requires full verification of accuracy and completeness of the SDTM dataset for regulatory compliance. In many cases this activity leads to fatigue and burnout.
+
+The solution designs a modular, agentic system where autonomous agents powered by large language models (LLMs) perform discrete SDTM mapping tasks with human oversight. The methodology combines synthetic data generation, exploration, mapping draft generation, validation using reasoning chains, and operationalization through a Command-Line Interface (CLI).
 
 ## Key techniques
 Key techniques include: 
