@@ -9,3 +9,12 @@ The agentic workflow consists of the following components:
 *	**SDTM Validator**: Employs chain-of-thought prompting with LLMs to validate draft mappings, ensuring compliance with controlled terminologies and identifying potential issues.
 *	**Command-Line Interface (CLI)**: Provides a user-friendly interface to execute the workflow, allowing for input of draft mappings and output of validated results in various formats (JSON, CSV).
 
+The following table provides a brief overview of the method and technology used with each component. 
+
+|Component              |Method                               |	Technology      |
+|-----------------------|-------------------------------------|-----------------|
+|Study Data Generator	  |Prompted synthetic record generation	|4o-mini, Python  |
+|Study Explorer	        |Basic statistical profiling	        |Pandas           |
+|SDTM Auto-Mapping	    |Zero-shot LLM prompting	            |gpt-4o-mini      |
+|SDTM Validator	        |Chain-of-thought reasoning	          |gpt-4o           |
+|Command-Line Interface (CLI)	| Typer CLI framework            |Typer, Python   |
