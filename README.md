@@ -1,5 +1,14 @@
 # sdtm-assistant
-Agentic workflow for SDTM-compliant dataset generation
+Agentic workflow for Study Data Tabulation Model (SDTM)-compliant dataset generation
+
+This solution designs a modular, agentic system where autonomous agents powered by large language models (LLMs) perform discrete SDTM mapping tasks with human oversight. The methodology combines synthetic data generation, exploration, mapping draft generation, validation using reasoning chains, and operationalization through a Command-Line Interface (CLI).
+
+## Key techniques
+Key techniques include:
+•	**Zero-shot prompting** with extended instruction sets to guide LLMs toward structured, machine- and human-readable outputs.
+•	**Chain-of-thought (CoT)** prompting to encourage step-by-step validation reasoning.
+•	**Human-in-the-loop** review stages to reduce hallucination risks and maintain clinical compliance.
+•	**Extensible modular architecture**, allowing for independent improvement of system components.
 
 ## Solution overview
 The agentic workflow consists of the following components:
