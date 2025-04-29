@@ -1,8 +1,19 @@
 # sdtm-assistant: Agentic workflow for Study Data Tabulation Model (SDTM)-compliant dataset generation
 
-The project demonstrates an agentic workflow automating dataset conversion using Study Data Tabulation Model (SDTM). SDTM is used to report clinical studies results to the FDA in the US. This is a challenging task for biostatistians as it's effort-intensive, cognitively demanding, and requires full verification of accuracy and completeness of the SDTM dataset for regulatory compliance. In many cases this activity leads to fatigue and burnout.
+**sdtm-assistant** is a prototype system demonstrating how agentic workflows powered by large language models (LLMs) can automate the conversion of clinical trial data into the **Study Data Tabulation Model (SDTM)** format.
 
-The solution designs a modular, agentic system where autonomous agents powered by large language models (LLMs) perform discrete SDTM mapping tasks with human oversight. The methodology combines synthetic data generation, exploration, mapping draft generation, validation using reasoning chains, and operationalization through a Command-Line Interface (CLI).
+SDTM is the regulatory standard required for clinical study submissions to agencies like the FDA. Traditionally, SDTM mapping is a manual, error-prone, and cognitively demanding task for biostatisticians, often contributing to fatigue and project delays.
+This project explores how an agent-based AI architecture can **reduce manual effort, increase traceability, and maintain regulatory compliance** by shifting the human role from executor to reviewer.
+
+## What This Project Covers
+* **Synthetic clinical dataset generation**
+* **Dataset exploration and feature profiling**
+* **LLM-driven draft SDTM mapping**
+* **Chain-of-thought (CoT) validation for mapping quality**
+* **Command-Line Interface (CLI) for operational use**
+* **Full audit trace of decisions for regulatory traceability**
+
+Rather than replacing human validation, the system augments biostatisticians with draft mappings, structured reasoning outputs, and validation recommendations.
 
 ## Key techniques
 Key techniques include: 
@@ -28,3 +39,10 @@ The following table provides a brief overview of the method and technology used 
 |SDTM Auto-Mapping	    |Zero-shot LLM prompting	            |gpt-4o-mini      |
 |SDTM Validator	        |Chain-of-thought reasoning	          |gpt-4o           |
 |Command-Line Interface (CLI)	| Typer CLI framework            |Typer, Python   |
+
+## Why This Matters
+* **Flexibility**: Handles diverse Electronic Data Capture (EDC) inputs — crucial in the U.S., where no unified electronic health record (EHR) system exists.
+* **Transparency**: Every mapping decision is documented with structured reasoning for full auditability.
+* **Cognitive relief**: Reduces cognitive load by offloading repetitive tasks to AI agents while maintaining oversight.
+
+
